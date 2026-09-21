@@ -114,7 +114,7 @@ Software лидировал по объёму привлечённых инве�
 
 Для локального запуска потребуется:
 
-- Python 3.10+;
+- Python 3.x;
 - Jupyter Notebook;
 - библиотеки pandas, NumPy, Matplotlib и Seaborn.
 
