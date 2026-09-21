@@ -108,6 +108,43 @@ Software лидировал по объёму привлечённых инве�
 - IQR
 - визуализация данных
 
+## Запуск проекта
+
+### Системные требования
+
+Для локального запуска потребуется:
+
+- Python 3.10+;
+- Jupyter Notebook;
+- библиотеки pandas, NumPy, Matplotlib и Seaborn.
+
+Установить необходимые библиотеки можно командой:
+
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+### Локальный запуск
+
+Склонируйте репозиторий:
+
+```bash
+git clone https://github.com/NatashaBass/startup-investment-analysis.git
+cd startup-investment-analysis
+```
+
+Запустите Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Откройте файл `startup_investment_analysis.ipynb`.
+
+Для полного повторного выполнения анализа необходимы исходные датасеты проекта. При локальном запуске пути к файлам данных в notebook могут потребовать изменения в соответствии с их расположением на вашем компьютере.
+
+Отдельного развёртывания приложения не требуется.
+
 ## Файлы
 
 - [`startup_investment_analysis.ipynb`](startup_investment_analysis.ipynb) — полный анализ, код, визуализации и выводы
